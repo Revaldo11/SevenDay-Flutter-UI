@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:splash_screen/pages/first_sign_in.dart';
 import 'package:splash_screen/pages/started_screen.dart';
 import 'package:splash_screen/pages/started_second_screen.dart';
 import 'pages/splash_first.dart';
@@ -13,7 +14,7 @@ class SevenDay extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StartedSecondScreen(),
+      home: FirstSignIN(),
     );
   }
 }

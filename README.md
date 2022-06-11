@@ -1,4 +1,4 @@
-# splash_screen
+# Seven Day Flutter
 
 A new Flutter project.
 
