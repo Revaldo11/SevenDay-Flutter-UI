@@ -38,9 +38,10 @@ class SecondSignIn extends StatelessWidget {
                   color: Color(0xffF3F3F3),
                   borderRadius: BorderRadius.circular(71)),
               child: const TextField(
+                obscureText: true,
                 decoration: InputDecoration(
                   border: InputBorder.none,
-                  hintText: '********',
+                  hintText: '*******',
                   hintStyle: TextStyle(
                     color: Color(0xff17171A),
                   ),
